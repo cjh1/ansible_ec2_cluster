@@ -1,0 +1,19 @@
+# The name of the SSH keypair to add to the server instance
+aws_keyname: cjh
+# The path to the private key
+ansible_ssh_private_key_file: /home/cjh/.ssh/cjh.pem
+# The type of machines to use for the master and cluster nodes
+master_instance_type: t2.nano
+node_instance_type: t2.nano
+# The number of cluster nodes in addition to master
+node_instance_count: 1
+# The ami to use for the master and cluster nodes
+master_instance_ami: ami-01f05461
+node_instance_ami: ami-01f05461
+# An id used to identify the cluster
+cluster_id: test
+# The zone and region
+cluster_region: us-west-2
+cluster_zone: us-west-2a
+cluster_state: absent
+
