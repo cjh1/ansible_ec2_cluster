@@ -8,8 +8,8 @@ node_instance_type: t2.nano
 # The number of cluster nodes in addition to master
 node_instance_count: 1
 # The ami to use for the master and cluster nodes
-master_instance_ami: ami-01f05461
-node_instance_ami: ami-01f05461
+master_instance_ami: ami-34f45d54
+node_instance_ami: ami-34f45d54
 # An id used to identify the cluster
 cluster_id: test
 # The zone and region
